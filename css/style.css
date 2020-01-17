@@ -5,3 +5,26 @@
 audio::-webkit-media-controls-panel {
     background: #ffffff;
 }
+
+main {
+    
+    border-color: grey 1px;
+}
+img {
+    display: block;
+    max-width :50%;
+    margin: 0 auto;
+   
+}
+
+h1 {
+    text-align: center;
+    
+    
+}
+div {
+    margin: 0 auto;
+    border: 0px;
+    border: solid 1px grey;
+    
+}
