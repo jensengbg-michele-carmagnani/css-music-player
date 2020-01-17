@@ -8,7 +8,11 @@ audio::-webkit-media-controls-panel {
 
 main {
     
-    border-color: grey 1px;
+    
+    border: solid 1px grey;
+    font-size: 12px;
+
+
 }
 img {
     display: block;
@@ -22,9 +26,14 @@ h1 {
     
     
 }
-div {
+/* div {
     margin: 0 auto;
     border: 0px;
     border: solid 1px grey;
     
+} */
+
+audio {
+    margin: auto;
+    display: block;
 }
