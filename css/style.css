@@ -1,37 +1,41 @@
 
 /** Låt denna kod vara kvar. Den kommer att ge en vit bakgrundsfärg
  till din musikspelare när du lägger till en audio-tag i HTML:en. **/
- 
+ * {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: saddlebrown;
+     font-size: 1,5em;
+ }
+ body {
+     
+     
+ }
 audio::-webkit-media-controls-panel {
     background: #ffffff;
 }
 
 main {
-    
-    
     border: solid 1px grey;
-    font-size: 12px;
-
-
+    padding: 1vh;
 }
+
 img {
     display: block;
-    max-width :50%;
-    margin: 0 auto;
+    max-width :80%;
+    margin: auto;
+    border: solid 1px red;
+    
    
 }
 
 h1 {
     text-align: center;
-    
-    
 }
-/* div {
-    margin: 0 auto;
-    border: 0px;
-    border: solid 1px grey;
-    
-} */
+
+p {
+    text-align: center;
+    margin: auto;
+}
 
 audio {
     margin: auto;
