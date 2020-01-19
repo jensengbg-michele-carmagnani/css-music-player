@@ -3,10 +3,15 @@
  till din musikspelare när du lägger till en audio-tag i HTML:en. **/
  * {
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     color: saddlebrown;
-     font-size: 1,5em;
+     
+     font-size: 1em;
+     
  }
  body {
+    
+   
+    display:f;
+    
      
      
  }
@@ -16,12 +21,15 @@ audio::-webkit-media-controls-panel {
 
 main {
     border: solid 1px grey;
+    margin: auto;
+    
+    
     
 }
 
 img {
     display: block;
-    max-width :80%;
+    max-width :50%;
     margin: auto;
     border: solid 1px red;
     
